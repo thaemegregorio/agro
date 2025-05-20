@@ -1,0 +1,105 @@
+ body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 23px;
+  background-color: #ffffff;
+}
+
+header {
+  background-color: #042c06;
+  color: rgb(184, 236, 187);
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(183, 243, 206);
+  font-weight: bold;
+}
+
+section {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.galeria-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.galeria-container img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label, form input, form textarea, form button {
+  margin-bottom: 10px;
+}
+
+form input, form textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #092e0b;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #092509;
+}
+
+footer {
+  background-color: #122b12;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.botoes-acesso {
+  text-align: center;
+  margin: 15px;
+}
+
+.botoes-acesso button {
+  margin: 0 5px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: none;
+  background-color: #112e12;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botoes-acesso button:hover {
+  background-color: #3b8d3b;
+}

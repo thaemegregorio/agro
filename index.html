@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Festival Raízes e Horizontes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1> Festival Raízes e Horizontes</h1>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#atividades">Atividades</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="botoes-acesso">
+    <button onclick="aumentarFonte()">A+</button>
+    <button onclick="diminuirFonte()">A-</button>
+    <button onclick="toggleGaleria()">Mostrar/Ocultar Galeria</button>
+     <div>
+  <section id="sobre">
+    <h2>Sobre o Evento</h2>
+    <p>Uma celebração que une criatividade sabores do campo com a diversidade urbana. Participe de um vento que valoriza a cultura, a produção local e o diálogo entre diferentes modos de viver,onde mostra que a junção da biodiversidade rural e as tecnologias urbanas. </p>
+  </section>
+
+  <section id="atividades">
+    <h2>Atividades o evento</h2>
+    <ul>
+      <li>Feira de produtores locais</li>
+      <li>Oficinas de agricultura urbana</li>
+      <li>Rodas de conversa e painéis temáticos</li>
+      <li>Apresentações culturais e musicais</li>
+      <li>Mercado dos sabores rurais</li>
+      <li>Exposição e história do local</li>
+    </ul>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria</h2>
+    <div class="galeria-container">
+      <img src="img/mel.png" alt="Foto do evento 1">
+      <img src="img/urbano.png" alt="Foto do evento 2">
+      <img src="img/evento.png" alt="Foto do evento 3">
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Festejando a Conexão Campo-Cidade. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
